@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Título principal (fuera del container bordeado) */
+#p-title-personal-info {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.69px;
+}
+
+#p-subtitle-personal-info {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.07px;
+}
+
+/* Estilos de elementos del primer sub-container */
+#p-profile-personal-info {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32.69px;
+}
+
+#p-some-personal-info {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17.71px;
+  color: #828282;
+}
+
+#button-primer-sub {
+  border: 1px solid #828282;
+  border-radius: 12px;
+  width: 95.34px;
+  height: 38px;
+  color: #828282;
+}
+
+/* Segundo sub-container (título y datos) */
+.container-datos-profile {
+  padding: 1.5rem;
+}
+
+.container-datos-profile:not(:last-child) {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.span-title-personal-info {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17.71px;
+  color: #bdbdbd;
+}
+
+.span-data-personal-info {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.79px;
+}
+
+@media screen and (min-width: 768px) {
+  /* Título principal (fuera del container bordeado) */
+  #p-title-personal-info {
+    font-size: 33px;
+    line-height: 49.03px;
+  }
+
+  #p-subtitle-personal-info {
+    font-size: 16px;
+    line-height: 24.52px;
+  }
+
+  /* Segundo sub-container (título y datos) */
+  #container-profile {
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+  }
+
+  .container-datos-profile {
+    border-top: 1px solid #d3d3d3;
+    border-bottom: none !important;
+  }
+
+  .span-data-personal-info {
+    font-size: 18px;
+    line-height: 24.52px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Título principal (fuera del container bordeado) */
+  #p-title-personal-info {
+    font-size: 36px;
+    line-height: 49.03px;
+  }
+
+  #p-subtitle-personal-info {
+    font-size: 18px;
+    line-height: 24.52px;
+  }
+
+  /* Segundo sub-container (título y datos) */
+  #container-profile {
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+  }
+
+  .container-datos-profile {
+    border-top: 1px solid #d3d3d3;
+    border-bottom: none !important;
+  }
+
+  .span-data-personal-info {
+    font-size: 18px;
+    line-height: 24.52px;
+  }
+}

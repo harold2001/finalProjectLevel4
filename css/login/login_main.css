@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  background-color: #fff5d2;
+}
+
+/* Container */
+#main-container-login-main {
+  height: 100vh;
+}
+
+/* BUTTONS */
+button,
+a {
+  padding: 10px 20px;
+  border: unset;
+  border-radius: 15px;
+  color: white;
+  z-index: 1;
+  background: #1889c5;
+  position: relative;
+  font-weight: 600;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+button:hover,
+a:hover {
+  color: #23488f;
+  background-color: #fff5d2;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (min-width: 768px) {
+  #main-container-login-main {
+    background-color: #23488f;
+    width: 600px;
+    height: max-content;
+  }
+
+  .sub-container-login-main:first-child {
+    height: 100%;
+    border-right: 1px solid #dee2e6;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #main-container-login-main {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #main-container-login-main {
+    width: 1000px;
+  }
+}
