@@ -62,7 +62,7 @@
                         <p class='text-center mt-1' style='font-size: 14px'>Esta cuenta no es de alumno. ¿Deseas ir a otra opción de ingreso?</p>
                         <div class='d-flex justify-content-center col-12 gap-3'>
                            <a href='login_maestro.php' class='btn btn-option'>Maestro</a>
-                           <a href='login_alumno.php' class='btn btn-option'>Alumno</a>
+                           <a href='login_admin.php' class='btn btn-option'>Admin</a>
                         </div>
                         ";
                         unset($_SESSION["array_login"]);
